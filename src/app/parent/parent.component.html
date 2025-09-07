@@ -1,0 +1,11 @@
+
+<app-child [dataId]="id" [dataId]=id [dataFromChild1]=userobj (myEvent)="x=$event" (newMyEvent)="y=$event"></app-child>
+
+<button type="button" (click)="sendToChild([200])">Send To Child</button>
+
+<h3>{{x}}</h3>
+<h3>{{y}}</h3>
+
+
+<h2>{{parentData}}</h2>
+<app-child1></app-child1>

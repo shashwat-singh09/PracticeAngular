@@ -1,0 +1,25 @@
+<table>
+  <thead>
+    <tr>
+      <th>Item</th>
+      <th>Price</th>
+      <th>Quantity</th>
+      <th>Total</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor =" let p of product; let i=index">
+      <td>{{p.id}}</td>
+      <td>{{p.name}}</td>
+      <td>
+        <button type="button" (click)="decreaseQuantity(i)">-</button>
+        {{p.selectedQuantity}}
+        <button type="button" (click)="increaseQuantity(i)">+</button>
+      </td>
+      <td>{{p.total}}</td>
+    </tr>
+  </tbody>
+</table>
+<app-parent></app-parent>
+
+<app-formdemo></app-formdemo>
