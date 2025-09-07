@@ -9,6 +9,6 @@ import { DataService } from '../data.service';
 export class Child1Component {
 child1ServiceObj=inject(DataService);
 
-child1Data:number;
+// child1Data:number;
 
 }
