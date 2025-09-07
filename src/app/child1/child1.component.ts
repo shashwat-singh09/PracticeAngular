@@ -13,6 +13,6 @@ child1ServiceObj=inject(DataService);
 
 a :number=10;
 
-b:number=20;
+b:number=60;
 
 }
