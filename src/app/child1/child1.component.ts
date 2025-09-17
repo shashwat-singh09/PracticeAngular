@@ -15,4 +15,5 @@ a :number=10;
 
 b:number=60;
 
+c:string="shashwat";
 }
